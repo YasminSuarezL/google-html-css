@@ -155,38 +155,46 @@ html {
     font-size: 15px;
 }
 /*FOOTER*/
+
 footer {
     position: relative;
     top: 580px;
     font-size: 15px;
 }
+
 .linea1 {
     margin: 10px 0 -1px 0;
     padding: 10px 0px 10px 10px;
     border: 1px solid #B5C0C2;
     background: #EFF5F7; 
 }
+
 .linea1 a {
     text-decoration: none;
     color: #8E9394; 
 }
+
 .linea1 a:hover {
     color: #8E9394;
 }
+
 .linea2 {
     padding: 10px 0px 10px 10px;
     border: 1px solid #B5C0C2;
     background: #EFF5F7; 
     width: 100%;
 }
+
 .lineab, .lineac {
     width: 30%;
     display: inline;
     margin: 0 -217px 10px -19px;
 }
+
 .lineac {
     float: right;
 }
+
 .lineab a, .lineac a {
     margin-left: 10px;
     padding: 10px;
