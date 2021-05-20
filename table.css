@@ -1,0 +1,62 @@
+@media (min-width:768px){
+    header {
+        font-size: 1.5rem;
+    }
+    .menuapps {
+        width: 6%;
+    }
+    .menunav-is {
+        width: 16%;
+        margin: 10px 24px 10px 10px;
+    }
+    #menu:checked ~ .menu-enlaces {
+        width: 25%;
+        height: 23%;
+    }
+
+    /*MAIN*/
+    .lgoogle {
+       margin: 170px 200px 22px 182px;
+    }
+    .busqueda {
+        top: 300px;
+        right: 160px;
+    }
+    #buscar {
+        width: 430px;
+    }
+    .cdsb {
+        width: 38%;
+        height: 25px;
+        margin: 10px 8px 10px 27px;
+        font-size: 1.2rem;
+    }
+    /*FOOTER*/
+
+    footer {
+    top: 500px;
+    width: 100%;
+    }
+    .linea1 {
+        padding: 5px;
+    }
+    .lineab {
+        display: inline-block;
+    }
+    .lineab1{
+        margin:0;
+        
+    }
+    .lineab1 a{
+        padding: 6px 0px 5px 1px;
+    }
+    .lineac {
+        float: right;
+        width: 38%;
+    }
+    .lineac1 {
+        margin: 0;
+        width: 20%;
+    }
+
+}

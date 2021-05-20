@@ -6,30 +6,33 @@
 }
 html {
     font-size: 62.5%;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /*HEADER*/
- header {
-    width: 100%;
+header {
+    font-size: 1rem;
 }
+
 /*menu gmail, imágenes e inicio de sesion*/
-.menunav, .menunav-is {
-    width: 34%;
+.menunav {
     list-style: none;
     float: right;
     margin-top: 10px;
 }
-/*Menu gmail e imagenes*/
-.menunav-ul {
-    margin-left: 274px;
+.menunav-is {
+    list-style: none;
+    float: right;
+    margin: 10px;
 }
+
+/*Menu gmail e imagenes*/
 .menunav-ul li {
     display: inline-block;
-    font-size: 1.5rem;
-    width: 30%;
+    width: 38%;
 }
 .menunav-ul--li a {
-    padding: 10px 20px;
+    margin: 10px;
     display: inline-block;
     color: #000;
     text-decoration: none;
@@ -38,18 +41,17 @@ html {
 .menunav-ul--li a:hover {
     text-decoration: underline;
 }
+
 /*Inicio Sesion*/  
 .menunav-is {
-    width: 10%;
-    margin: 10px 7px 7px 9px;
+    width: 27%;
     border-radius: 8px;
     background:#2b7de9;
     color: #fff;
 }
 .menunavis-ul--li {
-    display: inline-block;
-    font-size: 1.5rem;
-    margin: 10px 13px 10px 14px; 
+    margin: 10px 10px 10px 14px; 
+    list-style: none;
 }
 .menunavis-ul li a {
     text-decoration: none;
@@ -59,14 +61,15 @@ html {
 .menunavis-ul li a:hover {
     color: #fff;
 }
+
 /*Estilo de caja hamburguesa*/
 .me1 {
     display: inline-block;
     cursor: pointer;
     text-align: center;
     width: 30%;
-    margin: 10px 0;
-    padding: 5px;
+    margin: -1px 0;
+    padding: 1px;
 }
 .me1:hover {
     background: rgb(159, 203, 236, .5);
@@ -74,7 +77,8 @@ html {
 .me1 a {
     text-decoration: none;
     color: #04385E;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    text-align: justify;
 }
 .me1 a:hover {
     color: #04385E;
@@ -86,16 +90,18 @@ html {
     color: #04385E;
 }
 .me1-img {
-    width: 50px;
+    width: 4.5rem;
     height: auto;
     display: block;
     padding: 5px;
+    font-size: 0.5rem;
 }
+
 /*Menu interior*/
 .menuapps {
     display: inline-block;
     background: #fff;
-    width: 2%;
+    width: 16%;
     float: right;
     margin: 0 12px 0 -4px;
 }
@@ -110,61 +116,65 @@ html {
     height: auto;
     margin: 10px;
     padding: 20px;
+    background: white;
     border-radius: 10px;
     box-shadow: 0px 2px 4px 2px rgb(126, 123, 123);
+    z-index: 1;
 }
 #menu:checked ~ .menu-enlaces {
     display: block;
     position: fixed;
-    width: 17%;
-    height: 45%;
-    margin: 57px 16px 10px -123px;
+    width: 56%;
+    height: 34%;
+    margin: 41px 16px 10px -60px;
     padding: 12px 14px 10px 17px;
 }
 #menu {
     display: none;
 }
-/*MAIN*/
+
+/*MAIN*/  
+main {
+    position: fixed;
+}  
 .lgoogle {
     display: block;
-    margin: 30px 45px;
-    position: absolute;
-    top: 140px;
-    right: 480px;
+    width: 60%;
+    margin: 174px 130px 20px 60px;
 }
 .busqueda {
     position: fixed;
-    top: 260px;
-    right: 400px;
+    top: 239px;
+    right: 39px;
 }
 #buscar {
     margin: 10px;
-    width: 500px;
-    height: 40px;
+    width: 230px;
+    height: 30px;
     border: 1px solid #999;
     border-radius: 30px;
 }
-.cds {
-
-}
 .cdsb {
-    width: 160px;
-    height: 40px;
-    margin: 10px 25px 10px 60px;
+    display: inline;
+    width: 41%;
+    height: 25px;
+    margin: 10px 9px 10px 8px;
     border: 0 solid rgb(245, 249, 250, .5);
-    font-size: 15px;
+    font-size: 1.1rem;
 }
 /*FOOTER*/
 
 footer {
     position: relative;
-    top: 580px;
-    font-size: 15px;
+    top: 466px;
+    font-size: 1rem;
+    width: 100%;
 }
 
 .linea1 {
-    margin: 10px 0 -1px 0;
-    padding: 10px 0px 10px 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 5px ;
     border: 1px solid #B5C0C2;
     background: #EFF5F7; 
 }
@@ -183,20 +193,21 @@ footer {
     border: 1px solid #B5C0C2;
     background: #EFF5F7; 
     width: 100%;
+    display: inline-block;
 }
 
 .lineab, .lineac {
     width: 30%;
     display: inline;
-    margin: 0 -217px 10px -19px;
 }
 
-.lineac {
-    float: right;
+.lineab1, .lineac1 {
+    display: inline-block;
+    margin: 0px 15px 4px 33px;
+    width: 28%;
 }
-
-.lineab a, .lineac a {
-    margin-left: 10px;
+.lineab1 a, .lineac1 a{
+    text-align: center;
     padding: 10px;
     text-decoration: none;
     color: #8E9394 ;

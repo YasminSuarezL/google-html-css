@@ -1,0 +1,45 @@
+@media (min-width:1000px) {
+    .menunav-is {
+        width: 9%;
+    }
+    .menuapps {
+        width: 2%;
+    }
+    #menu:checked ~ .menu-enlaces {
+        width: 15%;
+        height: 25%;
+        margin: 54px 16px 10px -180px;
+    }
+    .me1-img {
+        width: 76%;
+        margin: 5px 0 5px 8px;
+        padding: 0;
+    }
+    .me1 {
+        margin: 1px;
+        padding: 0;
+    }
+    .me1 a {
+        font-size: 1.3rem;
+    }
+    .lgoogle {
+       margin: 190px 209px 250px 410px;
+    }
+    .busqueda {
+        top: 380px;
+        right: 500px;
+    }
+    #buscar {
+        width: 515px;
+    }
+    .cdsb {
+        width: 40%;
+        height: 32px;
+        margin: 10px 8px 10px 34px;
+        font-size: 1.5rem;
+    }
+    footer {
+        top: 760px;
+        font-size: 1.5rem;
+    }
+}
